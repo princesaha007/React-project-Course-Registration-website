@@ -4,6 +4,8 @@ import './Home.css'
 import Cart from '../Cart/Cart';
 import dollarSignImage from '../../Images/dollar-symbol.png';
 import openBookSign from '../../Images/book.png'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 
@@ -37,7 +39,8 @@ const Home = () => {
 
 
         if(alreadyExist){
-            return alert ('already exist');
+            toast.error('This course has already been added', {
+                position: "top-right"});
         }
         else{
             selectedCourse.forEach((item)=>{
@@ -120,6 +123,8 @@ const Home = () => {
                 totalCost={totalCost}></Cart>
                 
             </div>
+
+            <ToastContainer />
 
 
 
