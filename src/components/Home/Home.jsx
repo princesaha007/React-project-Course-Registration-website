@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 import './Home.css'
 import Cart from '../Cart/Cart';
 import dollarSignImage from '../../Images/dollar-symbol.png';
+import openBookSign from '../../Images/book.png'
 
 
 
@@ -89,14 +90,15 @@ const Home = () => {
                          
                           <p className="font-bold mt-2 ml-4">{c.name}</p>
                           <p className='ml-4 '>{c.description}</p>
-                            <div className="flex gap-24">
+                            <div className="flex gap-14">
                                 <div className='flex items-center justify-center gap-0 content-center ml-3'>
                                     <img className='img-dollar' src={dollarSignImage} alt="" />
 
                                     <h2 className="  font-normal text-black text-lg ">  Price: {c.price} </h2>
                                 </div>
                                 
-                                <div>
+                                <div className='flex items-center justify-center gap-2 content-center'>
+                                    <img className='img-dollar' src={openBookSign} alt="" />
                                      <p className='text-lg font-light '>Credit: {c.reading_time}hr</p>
                                 </div>
             
