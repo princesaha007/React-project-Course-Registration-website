@@ -2,6 +2,7 @@
 import { useEffect, useState } from 'react';
 import './Home.css'
 import Cart from '../Cart/Cart';
+import dollarSignImage from '../../Images/dollar-symbol.png';
 
 
 
@@ -89,8 +90,15 @@ const Home = () => {
                           <p className="font-bold mt-2 ml-4">{c.name}</p>
                           <p className='ml-4 '>{c.description}</p>
                             <div className="flex gap-24">
-                                <h2 className=" ml-4 font-light text-black text-lg "> $ Price: {c.price} </h2>
-                                <p className='text-lg font-light '>Credit: {c.reading_time}hr</p>
+                                <div className='flex items-center justify-center gap-0 content-center ml-3'>
+                                    <img className='img-dollar' src={dollarSignImage} alt="" />
+
+                                    <h2 className="  font-normal text-black text-lg ">  Price: {c.price} </h2>
+                                </div>
+                                
+                                <div>
+                                     <p className='text-lg font-light '>Credit: {c.reading_time}hr</p>
+                                </div>
             
                             </div>
                             <button  onClick = {()=>handleAddCourse(c)}  className="bg-blue-500 h-8 text-white rounded-md w-72 ml-4 mt-5">Select</button>
