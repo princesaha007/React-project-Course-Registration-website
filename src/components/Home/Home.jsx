@@ -51,7 +51,8 @@ const Home = () => {
             
 
             if(count>20){
-                return alert ('no hr left')
+                toast.warn('The Credit Hour limit is over', {
+                    position: "top-right"});
             }
             else{
 
