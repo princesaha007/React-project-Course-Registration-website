@@ -1,0 +1,13 @@
+.home{
+    width: 320px;
+    height: 355px;
+    /* border: 2px solid red; */
+    
+}
+.courses-container{
+    
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    
+}

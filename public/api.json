@@ -1,0 +1,75 @@
+[
+    {
+      "id": 1,
+      "picture": "https://knowthecode.io/wp-content/uploads/2016/06/introduction-to-programming.png",
+      "name": "Introduction to Programming",
+      "description": "Learn the basics of programming and coding.",
+      "price": 35000,
+      "reading_time": 10
+    },
+    {
+      "id": 2,
+      "picture": "https://www.covetus.com/uploads/topics/15805349703902.jpg",
+      "name": "Web Development Fundamentals",
+      "description": "Explore the essentials of web development.",
+      "price": 59000,
+      "reading_time": 6
+    },
+    {
+      "id": 3,
+      "picture": "https://www.analyticsinsight.net/wp-content/uploads/2019/10/Top-10-Best-and-Free-Data-Science-Certification-Courses-2019-2.png",
+      "name": "Data Science Essentials",
+      "description": "Dive into the world of data science and analytics.",
+      "price": 79009,
+      "reading_time": 8 
+    },
+    {
+      "id": 4,
+      "picture": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20230630120259/C-Language-Introduction.png",
+      "name": "Introduction to C Programming",
+      "description": "Master C Programming strategies and techniques.",
+      "price": 69099,
+      "reading_time": 5
+    },
+    {
+      "id": 5,
+      "picture": "https://media.geeksforgeeks.org/wp-content/uploads/20221109161109/HowToBecomeASoftwareEngineer.png",
+      "name": "Software Engineering",
+      "description": "Learn the basics of Software Engineering and implementation.",
+      "price": 49099,
+      "reading_time": 4
+    },
+    {
+      "id": 6,
+      "picture": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200309202057/How-To-Learn-ReactJS-A-Complete-Guide-For-Beginners.jpg",
+      "name": "Learn React",
+      "description": "Understand key react concepts for future success.",
+      "price": 69988,
+      "reading_time": 6
+    },
+    {
+      "id": 7,
+      "picture": "https://miro.medium.com/v2/resize:fit:715/0*v_ll_UoiB83Iscz_.png",
+      "name": "Machine Learning Basics",
+      "description": "Get started with machine learning and artificial intelligence.",
+      "price": 89099,
+      "reading_time": 8
+    },
+    {
+      "id": 8,
+      "picture": "https://editor.analyticsvidhya.com/uploads/50548logo.png",
+      "name": "Introduction to OOP Python",
+      "description": "Hone your oop python skills with creative exercises.",
+      "price": 54959,
+      "reading_time": 8
+    },
+    {
+      "id": 9,
+      "picture": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20220704104359/Roadmap-to-Learn-JavaScript-For-Beginners.jpg",
+      "name": "Javascript for Beginners",
+      "description": "Discover the power of javascript and explore it.",
+      "price": 37699,
+      "reading_time": 9
+    }
+  ]
+  
